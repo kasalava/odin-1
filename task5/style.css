@@ -5,3 +5,37 @@
     box-sizing: border-box;
 }
 
+.menu{
+    width: 300px;
+    height: 100vh;
+    box-shadow: 4px 0px 10px rgba(0, 0, 0, .2);
+    padding: 20px;
+}
+
+.user::after{
+    content:"";
+    display: block;
+    height: 2px;
+    background: #f6f6f6;
+    margin: 24px 0px;
+}
+
+.user img, .user-info{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px 5px;
+} 
+
+.user-info h3{
+    color: #2F54EB;
+}
+
+.user-info p{
+text-transform: uppercase;
+letter-spacing: 1px;
+font-style: 10px;
+}
+
+ul{
+list-style-type: none;
+}

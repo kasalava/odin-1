@@ -9,6 +9,9 @@
 .hero{
 background: url(bg.png) center/cover;
 height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
 }
 .hero-body{
   display: flex;

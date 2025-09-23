@@ -15,6 +15,7 @@ body{
   height: 100vh;
     display: flex;
     gap: 2px;
+    overflow: hidden;
    }
 
 .card{
@@ -24,6 +25,12 @@ body{
   justify-content: end;
   flex:1;
   gap: 18px;
+}
+.card:hover{
+  transform: scale(105%);
+  transition: 0.5s;
+  /* z-index: 1;
+  position: relative; */
 }
 
 h3{
@@ -35,20 +42,22 @@ h3{
 p{
   font-size: 12px;
   text-transform: capitalize;
+  opacity: 0.7;
+  font-weight: normal;
 }
 
 .card1{
-background: linear-gradient(rgba(0, 0, 0, 0), black), url(img/Image.png)center/cover
+background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url(img/Image.png)center/cover
 }
 
 .card2{
-  background: linear-gradient(rgba(0, 0, 0, 0), black),url(img/Image-1.png)center/cover
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)),url(img/Image-1.png)center/cover
 }
 
 .card3{
-  background: linear-gradient(rgba(0, 0, 0, 0), black),url(img/Image-2.png)center/cover
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)),url(img/Image-2.png)center/cover
 }
 
 .card4{
-  background: linear-gradient(rgba(0, 0, 0, 0), black),url(img/Image-3.png)center/cover
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)),url(img/Image-3.png)center/cover
 }

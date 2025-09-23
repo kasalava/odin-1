@@ -6,4 +6,49 @@
   font-family: "Poppins";
   box-sizing: border-box;
 }
+body{
+  min-height: 100vh;
+  color: white;
+  background-color: black;
+}
+.cards{
+  height: 100vh;
+    display: flex;
+    gap: 2px;
+   }
 
+.card{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  flex:1;
+  gap: 18px;
+}
+
+h3{
+  font-size: 38px;
+  text-transform: uppercase;
+  line-height: 38px;
+}
+  
+p{
+  font-size: 12px;
+  text-transform: capitalize;
+}
+
+.card1{
+background: linear-gradient(rgba(0, 0, 0, 0), black), url(img/Image.png)center/cover
+}
+
+.card2{
+  background: linear-gradient(rgba(0, 0, 0, 0), black),url(img/Image-1.png)center/cover
+}
+
+.card3{
+  background: linear-gradient(rgba(0, 0, 0, 0), black),url(img/Image-2.png)center/cover
+}
+
+.card4{
+  background: linear-gradient(rgba(0, 0, 0, 0), black),url(img/Image-3.png)center/cover
+}

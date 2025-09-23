@@ -40,4 +40,23 @@ button{
   height: 50px;
   border-radius: 50px;
   border: none;
+  background: white;
+}
+
+.hero-additional{
+  
+  
+  padding: 20px;
+  display: flex;
+  
+  align-items: end;
+  justify-content: space-between
+}
+.hero-additional p{
+  color:white;
+  font-size: 12px;
+  max-width: 300px;
+  border-left: 4px solid white;
+  padding-left: 20px;
+
 }

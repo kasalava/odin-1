@@ -6,16 +6,16 @@
   box-sizing: border-box;
 }
 
-.item:nth-child(1){
+.news__item:nth-child(1){
 background: url(img/Image-1.png) center/cover;
 }
-.item:nth-child(2){
+.news__item:nth-child(2){
   background: url(img/Image-2.png)center/cover;
 }
-.item:nth-child(3){
+.news__item:nth-child(3){
   background: url(img/Image-3.png)center/cover;
 }
-.item:nth-child(4){
+.news__item:nth-child(4){
   background: url(img/Image-4.png)center/cover;
 }
 
@@ -35,10 +35,53 @@ background: url(img/Image-1.png) center/cover;
   /* Отступы между элементов */
   gap: 15px;}
 
-.item{
+.news__item{
   border: 1px solid black;
   padding: 1rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start; 
+}
+
+.news__tag{
+  color: white;
+  text-decoration: none;
+  background: #0088ff;
+  padding: 5px 10px ;
+}
+
+.news__tag2{
+  color: white;
+  text-decoration: none;
+  background: #f1e316;
+  padding: 5px 10px ;
+}
+.news__tag3{
+  color: white;
+  text-decoration: none;
+  background: #3ce7e7;
+  padding: 5px 10px ;
+}
 
 
+.news__pretitle{
+font-weight: 300;
+font-size: 12px;
+}
 
+h1{
+  font-weight:500 ;
+  font-size: 36px;
+}
+
+h2{
+  font-size: 24px;
+  font-weight:500;
+}
+
+h3{
+  font-size: 1rem;
+  font-weight:500;
 }

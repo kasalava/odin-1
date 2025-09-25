@@ -1,6 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 * {
   margin: 0;
   padding: 0;
-  font-family: "Poppins";
+  font-family: "Oswald", sans-serif;
   box-sizing: border-box;
+}
+
+.item:nth-child(1){
+background: url(img/Image-1.png) center/cover;
+}
+.item:nth-child(2){
+  background: url(img/Image-2.png)center/cover;
+}
+.item:nth-child(3){
+  background: url(img/Image-3.png)center/cover;
+}
+.item:nth-child(4){
+  background: url(img/Image-4.png)center/cover;
+}
+
+.news{
+  display: grid;
+  max-width: 1170px;
+  height: 570px;
+  padding: 1rem;
+  /* Настройка столбцов */
+  grid-template-columns: 3fr 1fr 1fr; 
+  /* Настройка строк */
+  grid-template-rows: 1fr 1fr;
+  /* Шаблон отображения */
+  grid-template-areas: 
+  "i1 i2 i3"
+  "i1 i4 i4";
+  /* Отступы между элементов */
+  gap: 15px;}
+
+.item{
+  border: 1px solid black;
+  padding: 1rem;
+
+
+
 }

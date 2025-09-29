@@ -1,0 +1,112 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+}
+:root{
+  font-size: 18px;
+}
+
+h1{
+  font-family: "Libre Caslon Display", serif;
+  font-size: 3.3rem;
+  max-width: 650px;
+}
+
+h1::before{
+  content: '';
+  display: block;
+  width: 100px    ;
+  height: 10px;
+  background: white;
+  margin: 20px 0;
+  }
+
+
+.logo{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.header-menu{
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  font-style: 1.5rem;
+  align-items: center;
+
+}
+
+header{
+  height: 1024px;
+  background: url(Background.png) center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+ 
+nav a{
+  color: white;
+  text-decoration: none;
+}
+
+button{
+  background: none;
+  color: white;
+  border: 1px white solid;
+  width: 150px;
+  height: 40px;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+
+.burger-menu{
+  border: none;
+  width: max-content;
+  cursor: pointer;
+  display: none;
+}
+
+.header-body{
+color: white;
+padding: 4rem;
+display: flex;
+flex-direction: column;
+gap: 1.5rem;
+}
+
+.header-body p{
+line-height: 1.5rem;
+}
+
+@media screen and (max-width: 992px){
+  nav{
+    display: none;
+  }
+  .burger-menu{
+    display: inline-block;
+  }
+  h1{
+    font-size: 2.8rem;
+  }
+}
+
+@media screen and (max-width: 576px){
+  :root{
+    font-size: 14px;
+  }
+  h1{
+    font-size: 2rem;
+  }
+}
+

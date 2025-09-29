@@ -5,10 +5,25 @@
   font-family: "Inter", sans-serif;
   box-sizing: border-box;
 }
+:root{
+  font-size: 18px;
+}
 
 h1{
   font-family: "Libre Caslon Display", serif;
+  font-size: 3.3rem;
+  max-width: 650px;
 }
+
+h1::before{
+  content: '';
+  display: block;
+  width: 100px    ;
+  height: 10px;
+  background: white;
+  margin: 20px 0;
+  }
+
 
 .logo{
     text-decoration: none;
@@ -29,6 +44,9 @@ h1{
 header{
   height: 1024px;
   background: url(Background.png) center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 nav {
@@ -52,14 +70,43 @@ button{
   font-size: 1rem;
 }
 
-@media screen and (max-width: 992px){
-  nav{
-    display: none;
-  }
-}
-
 .burger-menu{
   border: none;
   width: max-content;
   cursor: pointer;
+  display: none;
 }
+
+.header-body{
+color: white;
+padding: 4rem;
+display: flex;
+flex-direction: column;
+gap: 1.5rem;
+}
+
+.header-body p{
+line-height: 1.5rem;
+}
+
+@media screen and (max-width: 992px){
+  nav{
+    display: none;
+  }
+  .burger-menu{
+    display: inline-block;
+  }
+  h1{
+    font-size: 2.8rem;
+  }
+}
+
+@media screen and (max-width: 576px){
+  :root{
+    font-size: 14px;
+  }
+  h1{
+    font-size: 2rem;
+  }
+}
+

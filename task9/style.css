@@ -13,3 +13,9 @@ h1{
 .header-menu a{
   text-decoration: none;
 }
+
+header{
+  height: 1024px;
+  background: url(Background.png) center/cover;
+
+}

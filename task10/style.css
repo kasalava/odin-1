@@ -50,3 +50,18 @@ button{
     align-items: center;
     gap: 3px;
   }
+
+  .burger-btn{
+    background: transparent;
+    padding: 0;
+    display: none;
+  }
+
+  @media screen and (max-width:992px ){
+    .burger-btn{
+      display: block;
+    }
+    nav{
+      display: none;
+    }
+  }

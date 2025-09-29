@@ -75,18 +75,23 @@ button {
   flex-direction: column;
   justify-content: center;
 }
+
 .hero-choose:nth-child(1) {
   background: #7b7b7b;
 }
+
 .hero-choose:nth-child(2) {
   background: #504f4f;
 }
+
 .hero-choose:nth-child(3) {
   background: #303030;
 }
+
 .hero-choose h4 {
   line-height: 160%;
 }
+
 .hero-choose select{
   background:transparent;
   border: none;
@@ -94,6 +99,12 @@ button {
   font-size: 20px;
   font-weight: 600;
 }
+
+.hero button{
+  height: 100px;
+  padding: 20px;
+}
+
 @media screen and (max-width: 992px) {
   .burger-btn {
     display: block;
@@ -101,4 +112,15 @@ button {
   nav {
     display: none;
   }
+}
+
+@media screen and (max-width: 768px) {
+  .hero{
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+.hero button, .hero-choose {
+width: max(70%, 300px);
+}
 }

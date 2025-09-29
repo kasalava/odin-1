@@ -1,7 +1,52 @@
-
 * {
   margin: 0;
   padding: 0;
   font-family: "Inter", sans-serif;
   box-sizing: border-box;
 }
+
+header {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 60px 100px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: 900;
+  color: #076bb2;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+nav a{
+  color: black;
+  font-size: 20px;
+}
+
+button{
+  background: #076bb2;;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  padding: 10px 80px;
+  font-size: 20px;
+  cursor:pointer;
+  }
+  .lang{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+  }

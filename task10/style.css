@@ -248,7 +248,7 @@ footer {
 .footer-body-links a {
   color: white;
   font-weight:  100px;
-  
+
 }
 
 .footer-body-links h4 {
@@ -256,7 +256,30 @@ footer {
   font-family: "Lora", serif;
   font-weight: 800;
   font-size: 24px;
+}
+.footer-social-media{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 20px 0;
 
+}
+.footer-policy{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  border-top: 2px solid white;
+  padding: 15px 0 32px;
+  a{
+    color: white;
+    font-weight: 100;
+  }
+  
+}
+
+.rights{
+  font-weight: 100;
+  opacity: 0.6;
 }
 
 @media screen and (max-width: 992px) {
@@ -306,6 +329,14 @@ footer {
     margin: 14px 0px;
     color: #303030;
   }
+}
+@media screen and (max-width: 550px) {
+.footer-body-links, .footer-social-media, .footer-policy, .rights {
+  display: none;
+}
+.footer-body h3{
+  font-size: 20px;
+}
 }
 
 @media screen and (max-width: 450px) {

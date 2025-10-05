@@ -314,15 +314,15 @@ nav {
   background-color: #1eacc7;
 }
 .mobile_item_plus:hover:before, .mobile_item_plus:hover:after {
-  transition: 2s all;
+  transition: 1s all;
   background-color: #ff5656;
 }
 
 .car {
   background: url("img/car/Темная подложка.png") center/cover no-repeat;
   position: relative;
-  min-height: 895px;
-  padding: 57px 0 138px 0;
+  min-height: 695px;
+  padding-top: 37px, 0px;
 }
 .car_img {
   position: relative;
@@ -347,7 +347,7 @@ nav {
   z-index: 1;
 }
 .car .white {
-  min-height: 795px;
+  min-height: 695px;
   width: 100%;
   background: url("img/mobile_bg.png") center center/cover no-repeat;
 }
@@ -425,7 +425,7 @@ nav {
 }
 .map .world_link:hover {
   text-decoration: none;
-  color: #fff;
+  color: #000000;
 }
 
 footer {
@@ -580,7 +580,7 @@ footer a:hover {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     }
-  }
+      }
 
   @media screen and (max-width: 360px) {
     .subheader_btn {

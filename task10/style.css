@@ -349,3 +349,13 @@ footer {
     font-size: 20px;
   }
 }
+@media screen and (max-width: 450px) {
+  .card-date {
+    width: 70px;
+    height: 70px;
+    font-size: 16px;
+  }
+  .card-date .day {
+    font-size: 20px;
+  }
+}

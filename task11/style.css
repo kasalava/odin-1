@@ -552,6 +552,7 @@ footer a:hover {
     font-size: 11px;
   font-weight: 300;
   }
+
   .mobile_item {
     position: relative;
     width: 200px;
@@ -560,13 +561,9 @@ footer a:hover {
     margin-bottom: 19px;
     padding-top: 92px;
 }
-.mobile_item_subtitle{
-  
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 20px;
+
 }
-}
+
 
 @media screen and (max-width: 764px) {
   .subheader_btn {
@@ -598,7 +595,7 @@ footer a:hover {
       font-size: 10px;
       padding: 0 0px
           }
-    }
+    } 
 
 
 
